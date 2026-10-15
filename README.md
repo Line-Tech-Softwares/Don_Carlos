@@ -11,6 +11,8 @@ npm run dev
 
 Open the local URL shown by Vite. Verify the production build and TypeScript separately with `npm run build` and `npm run typecheck`.
 
+GitHub Pages is built from `main` by `.github/workflows/deploy-pages.yml`. The Vite base path is configured for the `/Don_Carlos/` project URL.
+
 ## Stack
 
 - React 19, Vite 8, TypeScript 6
